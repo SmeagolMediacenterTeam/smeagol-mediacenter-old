@@ -32,10 +32,11 @@ module.exports = function (grunt) {
 
 
 	grunt.registerTask('default', [
-		'init'
+		'bower_clean',
+		'nodewebkit'
 	]);
 
-	grunt.registerTask('init', function () {
+	grunt.registerTask('start', function () {
 		var start = parseBuildPlatforms();
 		// if (start.win) {
 		// 	grunt.task.run('exec:win');
@@ -50,5 +51,35 @@ module.exports = function (grunt) {
 		// }
 	});
 
-	
+
+	grunt.initConfig({
+
+		nodewebkit: {
+			options: {
+				version: '0.9.2',
+				build_dir: './build', // Where the build version of my node-webkit app is saved
+				keep_nw: true,
+				embed_nw: false,
+				mac_icns: './src/app/images/smc.icns', // Path to the Mac icon file
+				zip: buildPlatforms.win, // Zip nw for mac in windows. Prevent path too long if build all is used.
+				mac: buildPlatforms.mac,
+				win: buildPlatforms.win,
+				linux32: buildPlatforms.linux32,
+				linux64: buildPlatforms.linux64,
+				download_url: 'https://github.com/Smeagolworms4/smeagol-mediacenter'
+			},
+			src: [
+				'./src/**'      , '!./src/styl/**', './node_modules/**',
+				'!./**/test*/**', '!./**/doc*/**' , '!./**/example*/**',
+				'!./**/demo*/**', '!./**/bin/**'  , '!./**/build/**'   ,
+				'!./**/.*/**'   , './package.json', './README.md'      ,
+				'./LICENSE.txt' , './.git.json',
+				'!./node_modules/bower/**',
+				'!./node_modules/*grunt*/**',
+				'!./node_modules/stylus/**'
+			]
+		}
+
+	});
+
 };
