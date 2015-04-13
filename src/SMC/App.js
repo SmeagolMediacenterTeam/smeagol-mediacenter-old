@@ -1,14 +1,11 @@
-SMC = SMC | {};
-
-require('express');
-
-SMC.App = new GollumJs.Class ({
+SMC.App = new GollumJS.Class ({
 	
-	serverHttp: null,
+	httpServer: null,
 	
 	Static: {
 		
 		instance: null,
+		templator: null,
 		
 		start: function () {
 			this.instance = new this();
@@ -17,7 +14,10 @@ SMC.App = new GollumJs.Class ({
 	},
 	
 	initialize: function () {
-		console.log("hello world");
+		console.log("Start SMC App");
+		
+		this.httpServer = new HTTP.HTTPServer(this);
+		this.templator  = require('swig');
 	}
 	
 });
