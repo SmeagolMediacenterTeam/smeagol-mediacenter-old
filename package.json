@@ -1,0 +1,35 @@
+{
+	"name": "Smeagol-Media-Center",
+	"homepage": "https://github.com/Smeagolworms4/smeagol-mediacenter",
+	"bugs": "https://github.com/Smeagolworms4/smeagol-mediacenter",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Smeagolworms4/smeagol-mediacenter"
+	},
+	"license": "GPL-3.0",
+	"main": "app://host/web/index.html",
+	"version": "0.1.0",
+	"releaseName": "Green Arrow",
+	"scripts": {
+		"test": "grunt --verbose"
+	},
+	"dependencies": {
+		"express": "*",
+		"swig": "*"
+	},
+	"devDependencies": {
+
+		"grunt": "0.4.5",
+		"grunt-contrib-clean": "^0.5.0",
+		"grunt-contrib-compress": "^0.9.1",
+		"grunt-contrib-watch": "0.6.x",
+		"grunt-exec": "0.4.x",
+		"grunt-githooks": "^0.3.1",
+		"grunt-node-webkit-builder": "0.1.x",
+		"grunt-update-submodules": "^0.4.1",
+		"grunt-shell": "*",
+		"grunt-git": "*",
+
+		"load-grunt-tasks": "0.4.0"
+	}
+}

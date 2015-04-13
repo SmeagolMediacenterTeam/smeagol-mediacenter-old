@@ -1,0 +1,191 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/dduboeuf/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/dduboeuf/Works/JS/smeagol-mediacenter/smc.sublime-workspace",
+		"/home/dduboeuf/SG/auto.php",
+		"/home/dduboeuf/Works/Glowbl/git/Glowbl_portal/app/bootstrap.php.cache",
+		"/home/dduboeuf/Works/Glowbl/Glowbl_Billing/src/com/glowbl/billing/service/BillingAccountAllService.java",
+		"/home/dduboeuf/Works/MC/Forge/forge-morepiston-1710-1180/src/main/java/mods/gollum/core/common/config/dom/ConfigDom.java",
+		"/home/dduboeuf/Works/MC/Forge/forge-morepiston-1710-1180/src/main/java/mods/gollum/core/common/config/JsonProp.java",
+		"/home/dduboeuf/Works/MC/Forge/forge-castledef-164-965/mcp/src/minecraft/assets/castledefenders/buildings/spawn_rate.json",
+		"/home/dduboeuf/Works/IDE/new-zend-eclipse-php/workspace/Billing/sql/glowbl_billing.sql",
+		"/home/dduboeuf/Works/Glowbl/Glowbl_Billing/sql/glowbl_billing.sql",
+		"/home/dduboeuf/Works/MC/Forge/forge-jf-164-965/mcp/src/minecraft/mods/jammyfurniture/common/config/ConfigJammyFuniture.java",
+		"/home/dduboeuf/Works/MC/Forge/forge-jf-164-965/mcp/src/minecraft/mods/jammyfurniture/ModJammyFurniture.java",
+		"/home/dduboeuf/Works/MC/Forge/forge-jf-uncompile-164-965/mcp/src/minecraft/mods/jammyfurniture/common/config/ConfigJammyFuniture.java",
+		"/home/dduboeuf/Works/MC/Forge/forge-jf-uncompile-164-965/mcp/src/minecraft/mods/jammyfurniture/ModJammyFurniture.java",
+		"/home/dduboeuf/Works/MC/Forge/forge-jf-uncompile-164-965/mcp/src/minecraft/assets/jammyfurniture/lang/en_US.lang",
+		"/home/dduboeuf/Images/GFROOOOS.png",
+		"/home/dduboeuf/Téléchargements/03.06.2014.html"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"white",
+			"show",
+			"webkit",
+			"}\n",
+			"Property",
+			"Item",
+			"Yasmine<h3",
+			"<h3 style=\"margin: 0;padding: 0;font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif;line-height: 1.2;margin-bottom: 15px;color: #000;font-weight: 500;",
+			"font-size: 90%;",
+			"Yassmine",
+			"<h3 style=\"",
+			"<strong style=\"",
+			"accéd",
+			"accés"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"int",
+			"<h3",
+			"Yasmine<h3 style=\"margin: 0;padding: 0;font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif;line-height: 1.2;margin-bottom: 15px;color: #000;font-weight: bold;",
+			"Yasmine",
+			"<h3 style=\"font-weight: bold;",
+			"<strong style=\"font-weight: bold;"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "smc.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 168.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

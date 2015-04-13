@@ -9,6 +9,8 @@ SMC.App = new GollumJS.Class ({
 		
 		start: function () {
 			this.instance = new this();
+
+			console.log(this);
 		}
 		
 	},
