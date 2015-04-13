@@ -61,7 +61,7 @@ HTTP.HTTPServer = new GollumJS.Class ({
 	
 	callHome: function (req, res) {
 		res.setHeader('Content-Type', 'text/html');
-		var responseContent = this.app.templator.renderFile ('../web/home.tmpl', {});
+		var responseContent = this.app.templator.renderFile ('home.tmpl', {});
 		res.end(responseContent);
 	}
 	

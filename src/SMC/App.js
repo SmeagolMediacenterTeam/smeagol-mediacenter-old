@@ -17,7 +17,7 @@ SMC.App = new GollumJS.Class ({
 		console.log("Start SMC App");
 		
 		this.httpServer = new HTTP.HTTPServer(this);
-		this.templator  = require('swig');
+		this.templator  = new Template.Templator(this);
 	}
 	
 });

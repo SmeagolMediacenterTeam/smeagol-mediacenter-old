@@ -8,6 +8,7 @@ require('./Api/Core/Controller.js');
 require('./Api/Controller/Episode.js');
 require('./Api/Controller/Serie.js');
 require('./HTTP/HTTPServer.js');
+require('./Template/Templator.js');
 require('./SMC/App.js');
 
 
