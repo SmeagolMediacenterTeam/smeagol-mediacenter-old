@@ -1,9 +1,10 @@
-Api.Controller.Serie = new GollumJS.Class ({
+SMC.Api.Controller.Episode = new GollumJS.Class ({
 	
-	Extends: Api.Core.Controller,
+	Extends: SMC.Api.Core.Controller,
 	
 	getAction: function () {
-		console.log ("Cool");
+		
+		console.log ("Cool2");
 		
 		return {
 			"test1":1,

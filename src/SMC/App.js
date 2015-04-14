@@ -1,25 +1,21 @@
 SMC.App = new GollumJS.Class ({
 	
 	httpServer: null,
+	templator: null,
 	
 	Static: {
 		
 		instance: null,
-		templator: null,
 		
 		start: function () {
 			this.instance = new this();
-
-			console.log(this);
 		}
 		
 	},
 	
 	initialize: function () {
-		console.log("Start SMC App");
-		
-		this.httpServer = new HTTP.HTTPServer(this);
-		this.templator  = new Template.Templator(this);
+		this.httpServer = new SMC.HTTP.HTTPServer(this);
+		this.templator  = new SMC.Template.Templator(this);
 	}
 	
 });

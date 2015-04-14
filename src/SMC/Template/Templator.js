@@ -1,8 +1,8 @@
-Template.Templator = new GollumJS.Class ({
+SMC.Template.Templator = new GollumJS.Class ({
 	
 	app: null,
 	swig: null,
-	rootPath: "../web/",
+	rootPath: "./web/",
 	
 	
 	initialize: function (app) {

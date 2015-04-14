@@ -1,8 +1,9 @@
-HTTP.HTTPServer = new GollumJS.Class ({
+SMC.HTTP.HTTPServer = new GollumJS.Class ({
 	
 	app: null,
 	express: null,
 	controller: null,
+	port: 8080,
 	
 	Static: {
 		
@@ -26,7 +27,7 @@ HTTP.HTTPServer = new GollumJS.Class ({
 			return _this.callHome (req, res);
 		});
 		
-		this.express.listen(8080);
+		this.express.listen(this.port);
 	}, 
 	
 	callApi: function (req, res) {
@@ -40,12 +41,12 @@ HTTP.HTTPServer = new GollumJS.Class ({
 		res.setHeader('Content-Type', 'application/json');
 		
 		if (
-			typeof Api.Controller[controller] == 'function' &&
-			typeof Api.Controller[controller].prototype == 'object' &&
-			typeof Api.Controller[controller].prototype[action+this.self.ACTION_SUFFIX] == 'function'
+			typeof SMC.Api.Controller[controller] == 'function' &&
+			typeof SMC.Api.Controller[controller].prototype == 'object' &&
+			typeof SMC.Api.Controller[controller].prototype[action+this.self.ACTION_SUFFIX] == 'function'
 		) {
 			
-			this.controller = new Api.Controller[controller] (this.app, req, res);
+			this.controller = new SMC.Api.Controller[controller] (this.app, req, res);
 			
 			var json = this.controller[action+this.self.ACTION_SUFFIX]();
 			

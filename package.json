@@ -7,11 +7,22 @@
 		"url": "https://github.com/Smeagolworms4/smeagol-mediacenter"
 	},
 	"license": "GPL-3.0",
-	"main": "app://host/web/index.html",
+	"main": "app://host/src/index.html",
 	"version": "0.1.0",
 	"releaseName": "Green Arrow",
 	"scripts": {
 		"test": "grunt --verbose"
+	},
+	"window": {
+		"title": "Smeagol Media-Center",
+		"icon": "web/images/icon.png",
+		"toolbar": true,
+		"frame": true,
+		"min_width": 960,
+		"min_height": 520,
+		"resizable": true,
+		"show": true,
+		"position": "center"
 	},
 	"dependencies": {
 		"express": "*",

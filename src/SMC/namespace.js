@@ -1,6 +1,6 @@
 SMC = {};
-HTTP = {};
-Api = {};
-Api.Core = {};
-Api.Controller = {};
-Template = {};
+SMC.HTTP = {};
+SMC.Api = {};
+SMC.Api.Core = {};
+SMC.Api.Controller = {};
+SMC.Template = {};

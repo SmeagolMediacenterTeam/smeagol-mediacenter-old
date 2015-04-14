@@ -9,7 +9,23 @@
 		hello world !
 		
 		<!-- Server Initialization -->
-		<script src="index.js"></script>
+		<script type="text/javascript" src="../vendors/GollumJS/Class/Class.js"></script>
+		<script type="text/javascript" src="../vendors/GollumJS/Class/Exception.js"></script>
+
+		<script type="text/javascript" src="./SMC/namespace.js"></script>
+		<script type="text/javascript" src="./SMC/Api/Core/Controller.js"></script>
+		<script type="text/javascript" src="./SMC/Api/Controller/Episode.js"></script>
+		<script type="text/javascript" src="./SMC/Api/Controller/Serie.js"></script>
+		<script type="text/javascript" src="./SMC/HTTP/HTTPServer.js"></script>
+		<script type="text/javascript" src="./SMC/Template/Templator.js"></script>
+		<script type="text/javascript" src="./SMC/App.js"></script>
+
+		<script type="text/javascript" >
+		<!--
+			SMC.App.start();
+			//window.location = "http://127.0.0.1:"+SMC.App.instance.httpServer.port+"/home";
+		-->
+		</script>
 
 	</body>
 </html>

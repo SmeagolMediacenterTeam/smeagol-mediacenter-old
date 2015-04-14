@@ -1,4 +1,4 @@
-Api.Core.Controller = new GollumJS.Class ({
+SMC.Api.Core.Controller = new GollumJS.Class ({
 	
 	app: null,
 	req: null,

@@ -74,10 +74,10 @@ module.exports = function (grunt) {
 				linux64: buildPlatforms.linux64,
 				download_url: 'http://get.popcorntime.io/nw/'
 			},
+
 			src: [
 				'./src/**'      , 
 				'./web/**'      , 
-				'!./src/styl/**', 
 				'./node_modules/**',
 
 				'!./node_modules/bower/**',
