@@ -26,7 +26,10 @@
 	},
 	"dependencies": {
 		"express": "*",
-		"swig": "*"
+		"swig": "*",
+		"orm": "*",
+		"sqlite3" : "2.1.7",
+		"mysql" : "*"
 	},
 	"devDependencies": {
 
