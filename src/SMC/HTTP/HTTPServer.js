@@ -12,7 +12,8 @@ SMC.HTTP.HTTPServer = new GollumJS.Class ({
 	},
 	
 	initialize: function (app) {
-		console.log("Start HTTP Server");
+
+		console.log("Initialize HTTP Server");
 		
 		var _this = this;
 		this.app = app;
@@ -27,8 +28,23 @@ SMC.HTTP.HTTPServer = new GollumJS.Class ({
 			return _this.callHome (req, res);
 		});
 		
+		this.self.closeAllHttpServer ();
+		this.start ();
+	},
+
+	close: function () {
+
+		console.log("Close HTTP Server : "+this.port);
+
+		this.express.close ();
+	},
+
+	start: function () {
+
+		console.log("Start HTTP Server");
+
 		this.express.listen(this.port);
-	}, 
+	},
 	
 	callApi: function (req, res) {
 		

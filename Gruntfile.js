@@ -76,14 +76,14 @@ module.exports = function (grunt) {
 			},
 
 			src: [
-				'./src/**'      , 
-				'./web/**'      , 
+				'./src/**', 
+				'./web/**', 
+				'./vendors/**',
+				'./annotations/**',
+
 				'./node_modules/**',
-
-				'!./node_modules/bower/**',
 				'!./node_modules/*grunt*/**',
-				'!./node_modules/stylus/**',
-
+				
 				'!./**/test*/**', '!./**/doc*/**' , '!./**/example*/**',
 				'!./**/demo*/**', '!./**/bin/**'  , '!./**/build/**'   ,
 				'!./**/.*/**'   , './package.json', './README.md'      ,
@@ -118,7 +118,7 @@ module.exports = function (grunt) {
 					'mkdir vendors/jQuery',
 				].join(';'),
 
-	            options: {
+				options: {
 					failOnError: false,
 					stderr: false
 				}
@@ -126,16 +126,33 @@ module.exports = function (grunt) {
 		},
 
 		gitclone: {
-        	gjs_class: {
+			gjs_class: {
 				options: {
-	 				repository: 'https://github.com/GollumJS/Class.js',
+					repository: 'https://github.com/GollumJS/Class.js',
 					branch: 'master',
 					directory: 'vendors/GollumJS/Class'
 				}
 			},
+			
+			gjs_annotation: {
+				options: {
+					repository: 'https://github.com/GollumJS/GollumJsAnnotation.js.git',
+					branch: 'master',
+					directory: 'vendors/GollumJS/Annotation'
+				}
+			},
+			
+			gjs_orm: {
+				options: {
+					repository: 'https://github.com/GollumJS/GollumJsORM.js.git',
+					branch: 'master',
+					directory: 'vendors/GollumJS/ORM'
+				}
+			},
+			
 			jquery: {
 				options: {
-	 				repository: 'https://github.com/jquery/jquery.git',
+					repository: 'https://github.com/jquery/jquery.git',
 					branch: '2.1.3',
 					directory: 'vendors/jQuery/jquery'
 				}

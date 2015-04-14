@@ -27,9 +27,15 @@
 	"dependencies": {
 		"express": "*",
 		"swig": "*",
-		"orm": "*",
-		"sqlite3" : "2.1.7",
-		"mysql" : "*"
+		"glob": "*",
+		"esprima": "*",
+
+		"sequelize" :  "*",
+		"pg" : "*",
+		"mysql" : "*",
+		"mariasql" : "*",
+		"sqlite3" : "*",
+		"tedious" : "*"
 	},
 	"devDependencies": {
 
