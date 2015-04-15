@@ -16,8 +16,10 @@ SMC.App = new GollumJS.Class ({
 	},
 	
 	initialize: function () {
+		
+		console.log (SMC.Entity.Serie.getReflectionClass ());
 
-		this.annotationsManager = new GollumJS.Annotation.Manager ();
+		//this.annotationsManager = new GollumJS.Annotation.Manager ();
 
 		//this.entityManager      = new GollumJS.ORM.EntityManager(this);
 		//this.httpServer         = new SMC.HTTP.HTTPServer(this);

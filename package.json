@@ -27,7 +27,6 @@
 	"dependencies": {
 		"express": "*",
 		"swig": "*",
-		"glob": "*",
 		"esprima": "*",
 
 		"sequelize" :  "*",

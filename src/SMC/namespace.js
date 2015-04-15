@@ -1,4 +1,5 @@
 SMC = {};
+SMC.Entity = {};
 SMC.HTTP = {};
 SMC.Api = {};
 SMC.Api.Core = {};

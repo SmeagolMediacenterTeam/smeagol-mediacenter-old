@@ -1,5 +1,5 @@
 
-SMC.Entity.Series = new GollumJS.Class ({
+SMC.Entity.Serie = new GollumJS.Class ({
 
 	/**
 	 * @ORM.Annotations.Column ({
@@ -15,7 +15,7 @@ SMC.Entity.Series = new GollumJS.Class ({
 	 * 	type: "string",
 	 * });
 	 */
-	name: null,
+	name: null
 	
 	
 	
